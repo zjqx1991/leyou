@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ly-common/ly-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/NumberUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,12 +53,18 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -104,12 +118,7 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1597f09" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@26c0235a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1597f09" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d39419c7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f96c32a0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -127,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572512041533</updated>
-      <workItem from="1572512045736" duration="4585000" />
+      <workItem from="1572512045736" duration="5273000" />
     </task>
     <servers />
   </component>
