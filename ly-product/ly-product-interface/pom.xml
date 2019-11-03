@@ -12,5 +12,12 @@
     <groupId>com.revanwang.leyou.service</groupId>
     <artifactId>ly-product-interface</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-core</artifactId>
+            <version>1.1.5</version>
+        </dependency>
+    </dependencies>
 
 </project>
