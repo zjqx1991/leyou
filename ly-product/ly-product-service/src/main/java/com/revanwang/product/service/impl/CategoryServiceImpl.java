@@ -16,9 +16,6 @@ public class CategoryServiceImpl implements ICategoryService {
 
     @Override
     public List<Category> queryByPid(Long pid) {
-        if (pid == 0) {
-            throw new RuntimeException("pid不能为空");
-        }
         Category category = new Category();
         category.setParentId(pid);
         System.out.println("category：==" + category);

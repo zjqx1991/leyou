@@ -1,4 +1,4 @@
-package com.revanwang.common;
+package com.revanwang.common.utils;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

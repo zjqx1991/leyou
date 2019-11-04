@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ICategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/ICategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/test/java/com/revanwang/product/service/CategoryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/advice/CommonExceptionHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/enums/LYExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/exception/LYException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/vo/LYExceptionResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/LYProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/LYProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/CookieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/utils/CookieUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/utils/IdWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/utils/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/NumberUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/utils/NumberUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/LYProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/LYProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/CategoryController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +58,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,10 +89,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LyregistryApplication">
+  <component name="RunManager" selected="Spring Boot.LYProductApplication">
     <configuration name="LYProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-product-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.product.LYProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LYProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="ly-product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revanwang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.LYProductApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,6 +125,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.LygatewayApplication" />
+      <item itemvalue="Spring Boot.LyregistryApplication" />
+      <item itemvalue="Spring Boot.LYProductApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LYProductApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -126,7 +154,7 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b7f25e20" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a0caa985" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@43a4b5fd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />

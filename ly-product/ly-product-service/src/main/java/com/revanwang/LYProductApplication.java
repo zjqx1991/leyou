@@ -1,4 +1,4 @@
-package com.revanwang.product;
+package com.revanwang;
 
 
 import org.springframework.boot.SpringApplication;

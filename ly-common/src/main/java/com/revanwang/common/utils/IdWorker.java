@@ -1,4 +1,4 @@
-package com.revanwang.common;
+package com.revanwang.common.utils;
 
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;
