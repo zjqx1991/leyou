@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/java/com/revanwang/gateway/config/GlobalCorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
