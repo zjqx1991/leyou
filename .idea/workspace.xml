@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/advice/CommonExceptionHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/enums/LYExceptionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/exception/LYException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/vo/LYExceptionResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/CookieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/utils/CookieUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/utils/IdWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/utils/JsonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/NumberUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/utils/NumberUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/LYProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/LYProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
