@@ -4,11 +4,11 @@ import com.revanwang.common.vo.LYPageResult;
 import com.revanwang.product.domin.Brand;
 import com.revanwang.product.service.IBrandService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 
 @RestController
@@ -18,6 +18,9 @@ public class BrandController {
     @Autowired
     private IBrandService brandService;
 
+    /**
+     * 查询品牌
+     */
     @GetMapping("page")
     public ResponseEntity<LYPageResult<Brand>> queryBrandsBy(
             @RequestParam(value = "page", defaultValue = "1") Long page,
@@ -31,6 +34,16 @@ public class BrandController {
         System.out.println("请求搜索:==" + pageResult.getItems());
 
         return ResponseEntity.ok(pageResult);
+    }
+
+    /**
+     * 新增品牌
+     */
+    @PostMapping
+    public ResponseEntity<Void> saveBrand(Brand brand, @RequestParam("categories")List<Long> categories) {
+        System.out.println("BrandController.saveBrand:==="+ brand + "___" + categories);
+        this.brandService.saveBrand(brand, categories);
+        return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
 }

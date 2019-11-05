@@ -11,6 +11,7 @@ import com.revanwang.product.service.IBrandService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 import tk.mybatis.mapper.entity.Example;
 
@@ -51,5 +52,16 @@ public class BrandServiceImpl implements IBrandService {
         //5、解析分页结果
         PageInfo<Brand> info = new PageInfo<>(list);
         return new LYPageResult<Brand>(info.getTotal(), list);
+    }
+
+    @Override
+    @Transactional
+    public void saveBrand(Brand brand, List<Long> cids) {
+        //1、保存品牌
+        this.brandMapper.insert(brand);
+        //2、保存品牌和分类中间表
+        for (Long cid : cids) {
+            this.brandMapper.insertCategoryBrand(cid, brand.getId());
+        }
     }
 }
