@@ -19,6 +19,7 @@ public class CategoryController {
 
     @GetMapping("list")
     public ResponseEntity<List<Category>> queryCategoryByPid(@RequestParam("pid") Long pid) {
+        System.out.println("pid = " + pid);
         try {
             List<Category> list = this.categoryService.queryByPid(pid);
             return ResponseEntity.ok(list);
