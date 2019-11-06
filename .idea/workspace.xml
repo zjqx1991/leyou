@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ly-upload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/LYUploadApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/config/FastClientImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/config/UploadProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/service/IUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/service/impl/UploadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/web/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/test/java/com/revanwang/FdfsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/IBrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/IBrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/IBrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/enums/LYExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/enums/LYExceptionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +69,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -81,7 +93,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LYProductApplication">
+  <component name="RunManager" selected="JUnit.FdfsTest.testUpload">
+    <configuration name="FdfsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revanwang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revanwang" />
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.FdfsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FdfsTest.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revanwang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revanwang" />
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.FdfsTest" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FdfsTest.testUploadAndCreateThumb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revanwang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revanwang" />
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.FdfsTest" />
+      <option name="METHOD_NAME" value="testUploadAndCreateThumb" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LYProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-product-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.LYProductApplication" />
@@ -112,6 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LYUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.LYUploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LygatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.gateway.LygatewayApplication" />
@@ -130,9 +196,16 @@
       <item itemvalue="Spring Boot.LygatewayApplication" />
       <item itemvalue="Spring Boot.LyregistryApplication" />
       <item itemvalue="Spring Boot.LYProductApplication" />
+      <item itemvalue="Spring Boot.LYUploadApplication" />
+      <item itemvalue="JUnit.FdfsTest.testUpload" />
+      <item itemvalue="JUnit.FdfsTest" />
+      <item itemvalue="JUnit.FdfsTest.testUploadAndCreateThumb" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FdfsTest.testUpload" />
+        <item itemvalue="JUnit.FdfsTest.testUploadAndCreateThumb" />
+        <item itemvalue="JUnit.FdfsTest" />
         <item itemvalue="Spring Boot.LYProductApplication" />
       </list>
     </recent_temporary>
@@ -140,7 +213,7 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.19362187" />
+        <option name="contentProportion" value="0.23234624" />
         <treeState>
           <expand>
             <path>
@@ -158,6 +231,9 @@
       </serviceView>
     </option>
   </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -171,7 +247,7 @@
       <workItem from="1572512045736" duration="5273000" />
       <workItem from="1572837744033" duration="590000" />
       <workItem from="1572840266724" duration="10363000" />
-      <workItem from="1572925008818" duration="6705000" />
+      <workItem from="1572925008818" duration="18343000" />
     </task>
     <servers />
   </component>
