@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/SpecParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ISpecParamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/Spu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/SpuDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ISpuDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ISpuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/IGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/GoodsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/enums/LYExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/enums/LYExceptionEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/ISpecificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/ISpecificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/SpecificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/SpecificationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/SpecificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/SpecificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ICategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ICategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/IBrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/ICategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +246,7 @@
       <workItem from="1572837744033" duration="590000" />
       <workItem from="1572840266724" duration="10363000" />
       <workItem from="1572925008818" duration="19891000" />
-      <workItem from="1573081930801" duration="4912000" />
+      <workItem from="1573081930801" duration="10333000" />
     </task>
     <servers />
   </component>

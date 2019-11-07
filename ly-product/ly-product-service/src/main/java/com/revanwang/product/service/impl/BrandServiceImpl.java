@@ -64,4 +64,13 @@ public class BrandServiceImpl implements IBrandService {
             this.brandMapper.insertCategoryBrand(cid, brand.getId());
         }
     }
+
+    @Override
+    public Brand queryBrandById(Long id) {
+        Brand brand = this.brandMapper.selectByPrimaryKey(id);
+        if (brand == null) {
+            throw new LYException(BRAND_NOT_FOUND);
+        }
+        return brand;
+    }
 }
