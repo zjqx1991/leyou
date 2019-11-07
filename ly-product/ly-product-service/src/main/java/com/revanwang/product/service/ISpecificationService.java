@@ -1,6 +1,7 @@
 package com.revanwang.product.service;
 
 import com.revanwang.product.domin.SpecGroup;
+import com.revanwang.product.domin.SpecParam;
 
 import java.util.List;
 
@@ -11,4 +12,11 @@ public interface ISpecificationService {
      * @return
      */
     List<SpecGroup> querySpecGroupByCid(Long cid);
+
+    /**
+     * 通过规格组id查询规格组参数
+     * @param gid
+     * @return
+     */
+    List<SpecParam> querySpecParamByGId(Long gid);
 }
