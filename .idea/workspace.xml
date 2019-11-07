@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-upload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/LYUploadApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/config/FastClientImporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/config/UploadProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/service/IUploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/service/impl/UploadServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/web/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/test/java/com/revanwang/FdfsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/SpecGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ISpecGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/ISpecificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/SpecificationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/SpecificationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/enums/LYExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/enums/LYExceptionEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,13 +184,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.FdfsTest.testUpload" />
+      <item itemvalue="JUnit.FdfsTest" />
+      <item itemvalue="JUnit.FdfsTest.testUploadAndCreateThumb" />
       <item itemvalue="Spring Boot.LygatewayApplication" />
       <item itemvalue="Spring Boot.LyregistryApplication" />
       <item itemvalue="Spring Boot.LYProductApplication" />
       <item itemvalue="Spring Boot.LYUploadApplication" />
-      <item itemvalue="JUnit.FdfsTest.testUpload" />
-      <item itemvalue="JUnit.FdfsTest" />
-      <item itemvalue="JUnit.FdfsTest.testUploadAndCreateThumb" />
     </list>
     <recent_temporary>
       <list>
@@ -218,12 +209,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a0365191" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6d2c54da" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a0365191" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4c15d1ed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6d2c54da" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b8921c85" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -247,7 +238,8 @@
       <workItem from="1572512045736" duration="5273000" />
       <workItem from="1572837744033" duration="590000" />
       <workItem from="1572840266724" duration="10363000" />
-      <workItem from="1572925008818" duration="18343000" />
+      <workItem from="1572925008818" duration="19891000" />
+      <workItem from="1573081930801" duration="2712000" />
     </task>
     <servers />
   </component>

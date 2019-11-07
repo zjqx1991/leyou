@@ -9,9 +9,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ly-product-interface" />
         <module name="ly-api-gateway" />
-        <module name="ly-common" />
-        <module name="ly-product-service" />
         <module name="ly-upload" />
+        <module name="ly-product-service" />
+        <module name="ly-common" />
         <module name="ly-registry" />
       </profile>
     </annotationProcessing>
