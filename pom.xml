@@ -14,6 +14,7 @@
         <module>ly-common</module>
         <module>ly-upload</module>
         <module>ly-pojo</module>
+        <module>ly-manage-service-product</module>
     </modules>
     <packaging>pom</packaging>
 
