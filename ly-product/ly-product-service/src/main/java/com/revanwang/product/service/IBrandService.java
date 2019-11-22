@@ -17,4 +17,11 @@ public interface IBrandService {
      * @return
      */
     Brand queryBrandById(Long id);
+
+    /**
+     * 查询品牌
+     * @param cid 分类id
+     * @return
+     */
+    List<Brand> queryBrandListByCid(Long cid);
 }

@@ -10,7 +10,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:10086/eureka
+      defaultZone: http://127.0.0.1:10087/eureka
 
 # FastDFS
 fdfs:
@@ -20,7 +20,7 @@ fdfs:
     width: 60
     height: 60
   tracker-list: # tracker地址
-    - 172.16.73.137:22122
+    - 192.168.0.110:22122
 
 # 配置自定义
 ly:

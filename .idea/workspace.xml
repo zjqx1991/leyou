@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/Spu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/SpuDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ISpuDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ISpuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/IGoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/GoodsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/enums/LYExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/enums/LYExceptionEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ICategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ICategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/IBrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/IBrandMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/IBrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/ICategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-product/ly-product-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-registry/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-registry/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-registry/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-registry/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-upload/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-upload/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-upload/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-upload/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -211,23 +210,37 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.23234624" />
+        <option name="contentProportion" value="0.25835475" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6d2c54da" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6d2c54da" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b8921c85" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
     </option>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5428e98" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+          <option name="viewType" value="contributor" />
+          <option name="roots">
+            <list>
+              <ServiceState>
+                <option name="contributor" value="com.intellij.execution.dashboard.RunConfigurationsServiceViewContributor" />
+              </ServiceState>
+            </list>
+          </option>
+        </serviceView>
+      </list>
+    </option>
+    <option name="selectedView" value="0" />
   </component>
   <component name="SpringBootOptions">
     <option name="showAdditionalConfigNotification" value="false" />
@@ -246,7 +259,17 @@
       <workItem from="1572837744033" duration="590000" />
       <workItem from="1572840266724" duration="10363000" />
       <workItem from="1572925008818" duration="19891000" />
-      <workItem from="1573081930801" duration="10333000" />
+      <workItem from="1573081930801" duration="12181000" />
+      <workItem from="1573464313914" duration="8193000" />
+      <workItem from="1573573305494" duration="4864000" />
+      <workItem from="1573637535761" duration="591000" />
+      <workItem from="1573649800241" duration="584000" />
+      <workItem from="1573735354065" duration="118000" />
+      <workItem from="1573832864065" duration="5136000" />
+      <workItem from="1573863285283" duration="7394000" />
+      <workItem from="1573900454282" duration="10000" />
+      <workItem from="1574252803861" duration="13457000" />
+      <workItem from="1574395939701" duration="9847000" />
     </task>
     <servers />
   </component>

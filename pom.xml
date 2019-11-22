@@ -13,6 +13,7 @@
         <module>ly-product</module>
         <module>ly-common</module>
         <module>ly-upload</module>
+        <module>ly-pojo</module>
     </modules>
     <packaging>pom</packaging>
 

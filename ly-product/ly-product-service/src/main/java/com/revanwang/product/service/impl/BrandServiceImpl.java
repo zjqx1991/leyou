@@ -73,4 +73,13 @@ public class BrandServiceImpl implements IBrandService {
         }
         return brand;
     }
+
+    @Override
+    public List<Brand> queryBrandListByCid(Long cid) {
+        List<Brand> brands = this.brandMapper.queryBrandListByCid(cid);
+        if (CollectionUtils.isEmpty(brands)) {
+            throw new LYException(BRAND_NOT_FOUND);
+        }
+        return brands;
+    }
 }

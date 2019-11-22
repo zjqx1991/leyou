@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ly-product-interface" />
         <module name="ly-api-gateway" />
+        <module name="ly-pojo" />
         <module name="ly-upload" />
         <module name="ly-product-service" />
         <module name="ly-common" />
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ly-api-gateway" options="-parameters" />
       <module name="ly-common" options="-parameters" />
+      <module name="ly-pojo" options="-parameters" />
       <module name="ly-product-interface" options="-parameters" />
       <module name="ly-product-service" options="-parameters" />
       <module name="ly-registry" options="-parameters" />
