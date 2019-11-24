@@ -10,11 +10,11 @@
     <modules>
         <module>ly-registry</module>
         <module>ly-api-gateway</module>
-        <module>ly-product</module>
         <module>ly-common</module>
         <module>ly-upload</module>
         <module>ly-pojo</module>
         <module>ly-manage-service-product</module>
+        <module>ly-service-api</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -33,11 +33,23 @@
         <pageHelper.starter.version>1.2.3</pageHelper.starter.version>
         <mysql.connector.version>8.0.18</mysql.connector.version>
         <fastDFS.client.version>1.26.2</fastDFS.client.version>
+        <springfox-swagger.version>2.7.0</springfox-swagger.version>
     </properties>
 
 
     <dependencyManagement>
         <dependencies>
+            <!--swagger-->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${springfox-swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${springfox-swagger.version}</version>
+            </dependency>
             <!--springCloud-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -73,6 +85,7 @@
                 <artifactId>fastdfs-client</artifactId>
                 <version>${fastDFS.client.version}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 

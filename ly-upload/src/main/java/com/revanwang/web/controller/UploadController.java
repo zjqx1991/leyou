@@ -1,6 +1,8 @@
 package com.revanwang.web.controller;
 
 
+import com.revanwang.common.model.LYRevanResponse;
+import com.revanwang.ly.api.upload.IUploadAPI;
 import com.revanwang.service.IUploadService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,15 +14,13 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("upload")
-public class UploadController {
+public class UploadController implements IUploadAPI {
 
     @Autowired
     private IUploadService uploadService;
 
     @PostMapping("image")
-    public ResponseEntity<String> uploadImage(@RequestParam("file")MultipartFile file) {
-        String url = this.uploadService.upload(file);
-        System.out.println("UploadController.uploadImage:==" + url);
-        return ResponseEntity.ok(url);
+    public LYRevanResponse uploadImage(@RequestParam("file")MultipartFile file) {
+        return this.uploadService.uploadImage(file);
     }
 }

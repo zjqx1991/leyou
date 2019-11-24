@@ -7,24 +7,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ly-product-interface" />
+        <module name="ly-manage-service-product" />
         <module name="ly-api-gateway" />
         <module name="ly-pojo" />
         <module name="ly-upload" />
-        <module name="ly-product-service" />
+        <module name="ly-service-api" />
         <module name="ly-common" />
         <module name="ly-registry" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ly-product" target="1.8" />
+      <module name="ly-product-interface" target="1.8" />
+      <module name="ly-product-service" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ly-api-gateway" options="-parameters" />
       <module name="ly-common" options="-parameters" />
+      <module name="ly-manage-service-product" options="-parameters" />
       <module name="ly-pojo" options="-parameters" />
       <module name="ly-product-interface" options="-parameters" />
       <module name="ly-product-service" options="-parameters" />
       <module name="ly-registry" options="-parameters" />
+      <module name="ly-service-api" options="-parameters" />
       <module name="ly-upload" options="-parameters" />
     </option>
   </component>

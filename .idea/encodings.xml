@@ -4,11 +4,13 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-api-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ly-manage-service-product" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-product" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-product/ly-product-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-product/ly-product-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ly-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-upload" charset="UTF-8" />
   </component>
 </project>
