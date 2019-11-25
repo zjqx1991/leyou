@@ -9,9 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ly-manage-service-product" />
         <module name="ly-api-gateway" />
+        <module name="ly-test-elasticsearch" />
         <module name="ly-pojo" />
         <module name="ly-upload" />
         <module name="ly-service-api" />
+        <module name="ly-search" />
         <module name="ly-common" />
         <module name="ly-registry" />
       </profile>
@@ -31,7 +33,9 @@
       <module name="ly-product-interface" options="-parameters" />
       <module name="ly-product-service" options="-parameters" />
       <module name="ly-registry" options="-parameters" />
+      <module name="ly-search" options="-parameters" />
       <module name="ly-service-api" options="-parameters" />
+      <module name="ly-test-elasticsearch" options="-parameters" />
       <module name="ly-upload" options="-parameters" />
     </option>
   </component>

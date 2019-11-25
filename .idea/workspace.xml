@@ -2,69 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/exception/RevanException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/exception/RevanExceptionCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/exception/RevanThrowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/model/BaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/model/IBaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/model/IBaseResponseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/model/LYRevanResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/model/RevanResponseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/model/RevanResponseData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-service-api/ly-service-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/config/Swagger2Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/IBrandAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/ICategoryAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/IGoodsAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/ISpecificationAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/upload/IUploadAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/ly-search.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/revanwang/ly/search/LYSearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/ly-test-elasticsearch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/src/main/java/com/revan/ly/essearch/ElasticSearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/src/main/java/com/revan/ly/essearch/dao/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/src/main/java/com/revan/ly/essearch/pojo/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/src/test/java/com/revanwang/ly/essearch/IndexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/advice/CommonExceptionHandle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/enums/LYExceptionEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/exception/LYException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/vo/LYExceptionResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-interface/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/Brand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/Category.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/SpecGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/SpecParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/Spu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-interface/src/main/java/com/revanwang/product/domin/SpuDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/LYProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/LYProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/IBrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/mapper/IBrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ICategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/mapper/ICategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ISpecGroupMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/mapper/ISpecGroupMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ISpecParamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/mapper/ISpecParamMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ISpuDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/mapper/ISpuDetailMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/mapper/ISpuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/mapper/ISpuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/IBrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/ICategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/IGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/IGoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/ISpecificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/ISpecificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/service/impl/SpecificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/SpecificationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang/product/web/controller/SpecificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/SpecificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/src/test/java/com/revanwang/product/service/CategoryServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/target/classes/META-INF/ly-product-service.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/ly-product-service/target/test-classes/META-INF/ly-product-service.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-upload/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/service/IUploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/service/IUploadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/service/impl/UploadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/service/impl/UploadServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/web/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/revanwang/web/controller/UploadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/exception" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-search/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -127,11 +78,11 @@
       <recent name="com.revanwang.ly.manage_product" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ly-search/src/main/resources" />
       <recent name="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/exception" />
       <recent name="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller" />
       <recent name="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl" />
       <recent name="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service" />
-      <recent name="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,49 +102,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LYProductApplication">
-    <configuration name="FdfsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly-upload" />
+  <component name="RunManager" selected="JUnit.IndexTest.nativeQueryTest">
+    <configuration name="IndexTest.findTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-test-elasticsearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.revanwang.*" />
+          <option name="PATTERN" value="com.revanwang.ly.essearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.revanwang" />
-      <option name="MAIN_CLASS_NAME" value="com.revanwang.FdfsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FdfsTest.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly-upload" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.revanwang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.revanwang" />
-      <option name="MAIN_CLASS_NAME" value="com.revanwang.FdfsTest" />
-      <option name="METHOD_NAME" value="testUpload" />
+      <option name="PACKAGE_NAME" value="com.revanwang.ly.essearch" />
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.essearch.IndexTest" />
+      <option name="METHOD_NAME" value="findTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FdfsTest.testUploadAndCreateThumb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly-upload" />
+    <configuration name="IndexTest.nativeQueryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-test-elasticsearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.revanwang.*" />
+          <option name="PATTERN" value="com.revanwang.ly.essearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.revanwang" />
-      <option name="MAIN_CLASS_NAME" value="com.revanwang.FdfsTest" />
-      <option name="METHOD_NAME" value="testUploadAndCreateThumb" />
+      <option name="PACKAGE_NAME" value="com.revanwang.ly.essearch" />
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.essearch.IndexTest" />
+      <option name="METHOD_NAME" value="nativeQueryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexTest.queryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-test-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revanwang.ly.essearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revanwang.ly.essearch" />
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.essearch.IndexTest" />
+      <option name="METHOD_NAME" value="queryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexTest.saveListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-test-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revanwang.ly.essearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revanwang.ly.essearch" />
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.essearch.IndexTest" />
+      <option name="METHOD_NAME" value="saveListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-test-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revanwang.ly.essearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revanwang.ly.essearch" />
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.essearch.IndexTest" />
+      <option name="METHOD_NAME" value="saveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -237,6 +221,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LYSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.ly.search.LYSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LYUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-upload" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.LYUploadApplication" />
@@ -259,20 +250,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FdfsTest.testUpload" />
-      <item itemvalue="JUnit.FdfsTest" />
-      <item itemvalue="JUnit.FdfsTest.testUploadAndCreateThumb" />
       <item itemvalue="Spring Boot.LygatewayApplication" />
       <item itemvalue="Spring Boot.LyregistryApplication" />
       <item itemvalue="Spring Boot.LYUploadApplication" />
       <item itemvalue="Spring Boot.LYProductApplication" />
+      <item itemvalue="Spring Boot.LYSearchApplication" />
+      <item itemvalue="JUnit.IndexTest.saveTest" />
+      <item itemvalue="JUnit.IndexTest.saveListTest" />
+      <item itemvalue="JUnit.IndexTest.findTest" />
+      <item itemvalue="JUnit.IndexTest.queryTest" />
+      <item itemvalue="JUnit.IndexTest.nativeQueryTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FdfsTest.testUpload" />
-        <item itemvalue="JUnit.FdfsTest.testUploadAndCreateThumb" />
-        <item itemvalue="JUnit.FdfsTest" />
-        <item itemvalue="Spring Boot.LYProductApplication" />
+        <item itemvalue="JUnit.IndexTest.nativeQueryTest" />
+        <item itemvalue="JUnit.IndexTest.queryTest" />
+        <item itemvalue="JUnit.IndexTest.findTest" />
+        <item itemvalue="JUnit.IndexTest.saveListTest" />
+        <item itemvalue="JUnit.IndexTest.saveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +293,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a71857a1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c94d4484" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@143104c3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -344,7 +339,7 @@
       <workItem from="1573900454282" duration="10000" />
       <workItem from="1574252803861" duration="13457000" />
       <workItem from="1574395939701" duration="9847000" />
-      <workItem from="1574437375484" duration="15364000" />
+      <workItem from="1574437375484" duration="22599000" />
     </task>
     <servers />
   </component>
@@ -366,5 +361,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ly-test-elasticsearch/src/test/java/com/revanwang/ly/essearch/IndexTest.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

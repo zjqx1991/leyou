@@ -15,6 +15,8 @@
         <module>ly-pojo</module>
         <module>ly-manage-service-product</module>
         <module>ly-service-api</module>
+        <module>ly-search</module>
+        <module>ly-test-elasticsearch</module>
     </modules>
     <packaging>pom</packaging>
 
