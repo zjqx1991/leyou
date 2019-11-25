@@ -1,28 +1,33 @@
 package com.revanwang.ly.manage_product.web.controller;
 
 import com.revanwang.common.model.LYRevanResponse;
-import com.revanwang.ly.api.product.IGoodsAPI;
-import com.revanwang.ly.manage_product.service.IGoodsService;
+import com.revanwang.ly.api.product.ISpuAPI;
+import com.revanwang.ly.manage_product.service.ISpuService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-public class GoodsController implements IGoodsAPI {
+@RequestMapping("/spu")
+public class SpuController implements ISpuAPI {
 
     @Autowired
-    private IGoodsService goodsService;
+    private ISpuService spuService;
 
     @Override
-    @GetMapping("spu/page")
+    @GetMapping("/page")
     public LYRevanResponse querySpuByPage(
             @RequestParam(value = "page", defaultValue = "1") Integer page,
             @RequestParam(value = "rows", defaultValue = "5") Integer rows,
             @RequestParam(value = "saleable", required = false) Boolean saleable,
             @RequestParam(value = "key", required = false) String key
     ) {
-        return this.goodsService.querySpuByPage(page, rows, saleable, key);
+        return this.spuService.querySpuByPage(page, rows, saleable, key);
+    }
+
+    @Override
+    @GetMapping("/detail/{id}")
+    public LYRevanResponse querySpuDetailById(@PathVariable("id") Long id) {
+        return this.spuService.querySpuDetailById(id);
     }
 
 }

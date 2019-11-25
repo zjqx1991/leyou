@@ -2,7 +2,7 @@ package com.revanwang.ly.manage_product.service;
 
 import com.revanwang.common.model.LYRevanResponse;
 
-public interface IGoodsService {
+public interface ISpuService {
     /**
      * 查询spu
      * @param page 当前页
@@ -12,4 +12,11 @@ public interface IGoodsService {
      * @return
      */
     LYRevanResponse querySpuByPage(Integer page, Integer rows, Boolean saleable, String key);
+
+    /**
+     * 根据spu商品id查询详情
+     * @param id
+     * @return
+     */
+    LYRevanResponse querySpuDetailById(Long id);
 }

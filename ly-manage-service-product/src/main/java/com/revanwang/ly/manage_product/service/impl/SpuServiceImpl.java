@@ -6,25 +6,23 @@ import com.revanwang.common.exception.RevanThrowException;
 import com.revanwang.common.model.LYRevanResponse;
 import com.revanwang.common.model.RevanResponseCode;
 import com.revanwang.common.model.RevanResponseData;
-import com.revanwang.ly.domain.product.Category;
 import com.revanwang.ly.domain.product.Spu;
+import com.revanwang.ly.domain.product.SpuDetail;
 import com.revanwang.ly.manage_product.mapper.ISpuDetailMapper;
 import com.revanwang.ly.manage_product.mapper.ISpuMapper;
 import com.revanwang.ly.manage_product.service.IBrandService;
 import com.revanwang.ly.manage_product.service.ICategoryService;
-import com.revanwang.ly.manage_product.service.IGoodsService;
+import com.revanwang.ly.manage_product.service.ISpuService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 import tk.mybatis.mapper.entity.Example;
 
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
-public class GoodsServiceImpl implements IGoodsService {
+public class SpuServiceImpl implements ISpuService {
 
     @Autowired
     private ISpuMapper spuMapper;
@@ -81,4 +79,17 @@ public class GoodsServiceImpl implements IGoodsService {
 //            spu.setBname(this.brandService.queryBrandById(spu.getBrandId()).getName());
 //        }
     }
+
+
+    @Override
+    public LYRevanResponse querySpuDetailById(Long id) {
+        SpuDetail spuDetail = this.spuDetailMapper.selectByPrimaryKey(id);
+        if (spuDetail == null) {
+            RevanThrowException.throwException(RevanResponseCode.SPU_NOT_FOUND);
+        }
+        RevanResponseData<SpuDetail> data = new RevanResponseData<>();
+        data.setData(spuDetail);
+        return new LYRevanResponse(RevanResponseCode.SUCCESS, data);
+    }
+
 }

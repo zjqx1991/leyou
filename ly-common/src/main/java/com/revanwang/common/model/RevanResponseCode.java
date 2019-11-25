@@ -24,6 +24,13 @@ public enum RevanResponseCode implements IBaseResponseCode {
     CATEGORY_SPEC_PARAM_NOT_FOUND(false,1, "商品分类规格参数没有找到"),
 
 
+    //spu
+    SPU_NOT_FOUND(false,1, "没有找到spu"),
+
+    //sku
+    SKU_NOT_FOUND(false,1, "没有找到sku"),
+
+
     PRICE_CANNOT_BE_NULL(false,400, "价格不能为空"),
 
     INVALID_FILE_TYPE(false,1, "上传文件类型有误"),

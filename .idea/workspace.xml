@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-search/ly-search.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/revanwang/ly/search/LYSearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-search/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/ly-test-elasticsearch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/src/main/java/com/revan/ly/essearch/ElasticSearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/src/main/java/com/revan/ly/essearch/dao/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/src/main/java/com/revan/ly/essearch/pojo/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-elasticsearch/src/test/java/com/revanwang/ly/essearch/IndexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/mapper/ISkuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/ISkuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/SkuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/SkuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-manage-service-product/src/test/java/com/revanwang/ly/manage_product/service/ISkuServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-manage-service-product/src/test/java/com/revanwang/ly/manage_product/web/controller/SpuControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-pojo/src/main/java/com/revanwang/ly/domain/product/Sku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-pojo/src/main/java/com/revanwang/ly/domain/search/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/revanwang/ly/search/client/IGoodsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/ISkuAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/model/RevanResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/model/RevanResponseCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/IGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/ISpuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/SpuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/SpuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-pojo/src/main/java/com/revanwang/ly/domain/product/SpuDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-pojo/src/main/java/com/revanwang/ly/domain/product/SpuDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/IGoodsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/ISpuAPI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +32,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -60,6 +65,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-search/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -70,12 +77,19 @@
     <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.revanwang.ly.manage_product.web.controller" />
+      <recent name="com.revanwang.ly.manage_product.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.revanwang.ly.api.upload" />
+      <recent name="com.revanwang.ly.manage_product.mapper" />
+      <recent name="com.revanwang.ly.manage_product.service.impl" />
+      <recent name="com.revanwang.ly.manage_product.service" />
+      <recent name="com.revanwang.ly.manage_product.web.controller" />
       <recent name="com.revanwang.ly.api.product" />
-      <recent name="com.revanwang.common.model" />
-      <recent name="com.revanwang.ly.api.config" />
-      <recent name="com.revanwang.ly.manage_product" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ly-search/src/main/resources" />
@@ -102,7 +116,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IndexTest.nativeQueryTest">
+  <component name="RunManager" selected="JUnit.SpuControllerTest.querySpuDetailById">
+    <configuration name="ISkuServiceTest.querySkuBySpuId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-manage-service-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revanwang.ly.manage_product.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revanwang.ly.manage_product.service" />
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.manage_product.service.ISkuServiceTest" />
+      <option name="METHOD_NAME" value="querySkuBySpuId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IndexTest.findTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ly-test-elasticsearch" />
       <extension name="coverage">
@@ -151,41 +181,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexTest.saveListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly-test-elasticsearch" />
+    <configuration name="SpuControllerTest.querySpuDetailById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-manage-service-product" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.revanwang.ly.essearch.*" />
+          <option name="PATTERN" value="com.revanwang.ly.manage_product.web.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.revanwang.ly.essearch" />
-      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.essearch.IndexTest" />
-      <option name="METHOD_NAME" value="saveListTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly-test-elasticsearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.revanwang.ly.essearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.revanwang.ly.essearch" />
-      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.essearch.IndexTest" />
-      <option name="METHOD_NAME" value="saveTest" />
+      <option name="PACKAGE_NAME" value="com.revanwang.ly.manage_product.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.manage_product.web.controller.SpuControllerTest" />
+      <option name="METHOD_NAME" value="querySpuDetailById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LYProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ly-product-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.LYProductApplication" />
+      <module name="ly-manage-service-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.ly.manage_product.LYProductApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -250,24 +264,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.LygatewayApplication" />
-      <item itemvalue="Spring Boot.LyregistryApplication" />
-      <item itemvalue="Spring Boot.LYUploadApplication" />
-      <item itemvalue="Spring Boot.LYProductApplication" />
-      <item itemvalue="Spring Boot.LYSearchApplication" />
-      <item itemvalue="JUnit.IndexTest.saveTest" />
-      <item itemvalue="JUnit.IndexTest.saveListTest" />
       <item itemvalue="JUnit.IndexTest.findTest" />
       <item itemvalue="JUnit.IndexTest.queryTest" />
       <item itemvalue="JUnit.IndexTest.nativeQueryTest" />
+      <item itemvalue="Spring Boot.LygatewayApplication" />
+      <item itemvalue="Spring Boot.LYProductApplication" />
+      <item itemvalue="Spring Boot.LyregistryApplication" />
+      <item itemvalue="Spring Boot.LYUploadApplication" />
+      <item itemvalue="Spring Boot.LYSearchApplication" />
+      <item itemvalue="JUnit.ISkuServiceTest.querySkuBySpuId" />
+      <item itemvalue="JUnit.SpuControllerTest.querySpuDetailById" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpuControllerTest.querySpuDetailById" />
+        <item itemvalue="JUnit.ISkuServiceTest.querySkuBySpuId" />
         <item itemvalue="JUnit.IndexTest.nativeQueryTest" />
         <item itemvalue="JUnit.IndexTest.queryTest" />
         <item itemvalue="JUnit.IndexTest.findTest" />
-        <item itemvalue="JUnit.IndexTest.saveListTest" />
-        <item itemvalue="JUnit.IndexTest.saveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -288,12 +302,12 @@
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a71857a1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b6447e3d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a71857a1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@143104c3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b6447e3d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4a5b9686" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -340,6 +354,7 @@
       <workItem from="1574252803861" duration="13457000" />
       <workItem from="1574395939701" duration="9847000" />
       <workItem from="1574437375484" duration="22599000" />
+      <workItem from="1574688868270" duration="5079000" />
     </task>
     <servers />
   </component>
@@ -369,6 +384,16 @@
           <url>file://$PROJECT_DIR$/ly-test-elasticsearch/src/test/java/com/revanwang/ly/essearch/IndexTest.java</url>
           <line>63</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ly-manage-service-product/src/test/java/com/revanwang/ly/manage_product/web/controller/SpuControllerTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/SpuServiceImpl.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

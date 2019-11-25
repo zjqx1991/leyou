@@ -11,10 +11,10 @@
         <module name="ly-api-gateway" />
         <module name="ly-test-elasticsearch" />
         <module name="ly-pojo" />
-        <module name="ly-upload" />
         <module name="ly-service-api" />
-        <module name="ly-search" />
         <module name="ly-common" />
+        <module name="ly-search" />
+        <module name="ly-upload" />
         <module name="ly-registry" />
       </profile>
     </annotationProcessing>
