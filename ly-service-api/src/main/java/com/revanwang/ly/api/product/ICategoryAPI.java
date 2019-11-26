@@ -10,8 +10,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.List;
+
 @Api(value = "分类接口管理", description = "分类管理接口，提供分类的增、删、改、查")
-@RequestMapping("category")
+@RequestMapping("/category")
 public interface ICategoryAPI {
 
 
@@ -19,6 +21,19 @@ public interface ICategoryAPI {
     @ApiImplicitParams({
             @ApiImplicitParam(name = "pid", value = "品牌id", required = true,  paramType = "path", dataType = "long"),
     })
-    @GetMapping("list")
+    @GetMapping("/list")
     LYRevanResponse queryCategoryByPid(@RequestParam("pid") Long pid);
+
+
+    @ApiOperation("通过分类id列表查询分类名称")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "cid1", value = "分类id", required = true),
+            @ApiImplicitParam(name = "cid2", value = "分类id", required = true),
+            @ApiImplicitParam(name = "cid3", value = "分类id", required = true),
+    })
+    @GetMapping("/names")
+    LYRevanResponse queryCategoryListNamesByCids(@RequestParam("cid1") Long cid1,
+                                                 @RequestParam("cid2") Long cid2,
+                                                 @RequestParam("cid3") Long cid3
+                                                 );
 }

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Api(value = "sku接口管理", description = "sku管理接口，提供分类的增、删、改、查")
-@RequestMapping("/spu")
+@RequestMapping("/sku")
 public interface ISkuAPI {
 
     @ApiOperation("根据spu商品id查询sku")

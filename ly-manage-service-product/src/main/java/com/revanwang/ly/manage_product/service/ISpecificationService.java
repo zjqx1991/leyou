@@ -16,5 +16,5 @@ public interface ISpecificationService {
      * @param gid
      * @return
      */
-    LYRevanResponse querySpecParamByGId(Long gid);
+    LYRevanResponse querySpecParamByIds(Long cid, Long gid);
 }

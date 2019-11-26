@@ -21,4 +21,12 @@ public interface ICategoryService {
      */
     LYRevanResponse queryByListPid(List<Long> pids);
 
+    /**
+     * 通过分类ids获取分类名字列表
+     * @param cid1
+     * @param cid2
+     * @param cid3
+     * @return
+     */
+    LYRevanResponse queryCategoryListNamesByCids(Long cid1, Long cid2, Long cid3);
 }

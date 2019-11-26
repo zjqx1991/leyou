@@ -6,6 +6,10 @@ server:
 spring:
   application:
     name: ly-search-service
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.0.110:9300
 
 #注册服务中心
 eureka:

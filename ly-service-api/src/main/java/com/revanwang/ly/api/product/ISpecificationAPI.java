@@ -6,9 +6,14 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 
-@Api(value = "分类接口管理", description = "分类管理接口，提供分类的增、删、改、查")
+@Api(value = "spec接口管理", description = "spec管理接口，提供分类的增、删、改、查")
+@RequestMapping("/spec")
 public interface ISpecificationAPI {
 
 
@@ -16,12 +21,17 @@ public interface ISpecificationAPI {
     @ApiImplicitParams({
             @ApiImplicitParam(name = "cid", value = "分类id", required = true, dataType = "long"),
     })
-    LYRevanResponse querySpecGroupByCid(Long cid);
+    @GetMapping("/groups/{cid}")
+    LYRevanResponse querySpecGroupByCid(@PathVariable("cid") Long cid);
 
 
-    @ApiOperation("通过规格组id来查询对应的规格参数")
+    @ApiOperation("通过分类id 或 规格组id 来查询对应的规格参数")
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "gid", value = "规格id", required = true, dataType = "long"),
+            @ApiImplicitParam(name = "cid", value = "分类id", required = false, dataType = "long"),
+            @ApiImplicitParam(name = "gid", value = "参数规格组id", required = false, dataType = "long"),
     })
-    LYRevanResponse querySpecParamByGId(Long gid);
+    @GetMapping("/params")
+    LYRevanResponse querySpecParamByIds(@RequestParam("cid") Long cid,
+                                        @RequestParam("gid") Long gid);
+
 }

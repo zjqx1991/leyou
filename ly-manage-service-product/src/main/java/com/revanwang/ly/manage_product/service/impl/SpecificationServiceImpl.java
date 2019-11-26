@@ -40,8 +40,9 @@ public class SpecificationServiceImpl implements ISpecificationService {
     }
 
     @Override
-    public LYRevanResponse querySpecParamByGId(Long gid) {
+    public LYRevanResponse querySpecParamByIds(Long cid, Long gid) {
         SpecParam param = new SpecParam();
+        param.setCid(cid);
         param.setGroupId(gid);
         List<SpecParam> specParamList = this.specParamMapper.select(param);
 
@@ -53,4 +54,5 @@ public class SpecificationServiceImpl implements ISpecificationService {
         data.setData(specParamList);
         return new LYRevanResponse(RevanResponseCode.SUCCESS, data);
     }
+
 }

@@ -6,6 +6,7 @@ import com.revanwang.ly.manage_product.service.ISpuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+
 @RestController
 public class SpuController implements ISpuAPI {
 
@@ -19,7 +20,8 @@ public class SpuController implements ISpuAPI {
     }
 
     @Override
-    public LYRevanResponse querySpuDetailById(Long id) {
+    public LYRevanResponse querySpuDetailByPId(Long id) {
         return this.spuService.querySpuDetailById(id);
     }
+
 }

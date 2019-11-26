@@ -7,14 +7,15 @@ public enum RevanResponseCode implements IBaseResponseCode {
 
     SUCCESS(true,0,"操作成功！"),
     FAIL(false,9999,"操作失败！"),
+    PARAM_FAIL(false,1, "传入参数有误"),
     SERVER_ERROR(false,99999,"抱歉，系统繁忙，请稍后重试！"),
     INVALIDPARAM(false,99999,"抱歉，系统繁忙，请稍后重试！"),
 
     //Brand
-    BRAND_NOT_FOUND(false,1, "品牌没有查到"),
+    BRAND_NOT_FOUND(false,2, "品牌没有查到"),
 
     //Category
-    CATEGORY_NOT_FOUND(false,1, "分类没有查到"),
+    CATEGORY_NOT_FOUND(false,2, "分类没有查到"),
 
     //Goods
     GOODS_NOT_FOUND(false,400, "商品没有查到"),
@@ -25,10 +26,10 @@ public enum RevanResponseCode implements IBaseResponseCode {
 
 
     //spu
-    SPU_NOT_FOUND(false,1, "没有找到spu"),
+    SPU_NOT_FOUND(false,2, "没有找到spu"),
 
     //sku
-    SKU_NOT_FOUND(false,1, "没有找到sku"),
+    SKU_NOT_FOUND(false,2, "没有找到sku"),
 
 
     PRICE_CANNOT_BE_NULL(false,400, "价格不能为空"),

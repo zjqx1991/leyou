@@ -1,8 +1,16 @@
 package com.revanwang.ly.search.service;
 
 import com.revanwang.common.model.LYRevanResponse;
+import com.revanwang.ly.domain.product.Spu;
 
 public interface ISearchGoodsService {
+
+    /**
+     * 通过spu来构建Goods
+     * @param spu
+     * @return
+     */
+    LYRevanResponse buildGoods(Spu spu);
 
     /**
      * 分页查询商品
