@@ -6,4 +6,5 @@ import lombok.Data;
 public class RevanResponseData<T> {
     private T data;
     private Long total;
+    private Long totalPage;
 }

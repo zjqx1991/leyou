@@ -2,6 +2,7 @@ package com.revanwang.ly.search.web.controller;
 
 
 import com.revanwang.common.model.LYRevanResponse;
+import com.revanwang.ly.domain.search.SearchRequest;
 import com.revanwang.ly.search.client.ISearchCategoryClient;
 import com.revanwang.ly.search.client.ISearchSkuClient;
 import com.revanwang.ly.search.client.ISearchSpuClient;
@@ -30,6 +31,17 @@ public class SearchGoodsControllerTest {
     private ISearchSkuClient skuClient;
     @Autowired
     private ISearchCategoryClient categoryClient;
+
+
+    //测试 categoryClient
+    @Test
+    public void searchGoodsTest() {
+        System.out.println(this.goodsService);
+        SearchRequest request = new SearchRequest();
+        request.setKey("手机");
+//        LYRevanResponse response = this.goodsService.querySearchPage(request);
+//        System.out.println(response);
+    }
 
     //测试 categoryClient
     @Test
@@ -62,22 +74,4 @@ public class SearchGoodsControllerTest {
         System.out.println(response);
     }
 
-    //测试 ISearchGoodsService
-    @Test
-    public void querySpuByPage() {
-        LYRevanResponse response = this.goodsService.querySpuByPage(1, 10, false, "");
-        Object data = response.getResponseData().getData();
-    }
-
-    @Test
-    public void querySpuDetailById() {
-        LYRevanResponse response = this.goodsService.querySpuDetailById(2L);
-        Object data = response.getResponseData().getData();
-    }
-
-    @Test
-    public void querySkuBySpuId() {
-        LYRevanResponse response = this.goodsService.querySkuBySpuId(2L);
-        Object data = response.getResponseData().getData();
-    }
 }

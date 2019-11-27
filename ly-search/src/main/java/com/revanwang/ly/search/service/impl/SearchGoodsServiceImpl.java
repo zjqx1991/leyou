@@ -3,25 +3,30 @@ package com.revanwang.ly.search.service.impl;
 import com.alibaba.fastjson.JSON;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.netflix.discovery.converters.Auto;
 import com.revanwang.common.model.LYRevanResponse;
 import com.revanwang.common.model.RevanResponseCode;
 import com.revanwang.common.model.RevanResponseData;
-import com.revanwang.common.utils.JsonUtils;
 import com.revanwang.ly.domain.product.Sku;
 import com.revanwang.ly.domain.product.SpecParam;
 import com.revanwang.ly.domain.product.Spu;
 import com.revanwang.ly.domain.product.SpuDetail;
 import com.revanwang.ly.domain.search.Goods;
+import com.revanwang.ly.domain.search.SearchRequest;
 import com.revanwang.ly.search.client.ISearchCategoryClient;
 import com.revanwang.ly.search.client.ISearchSkuClient;
 import com.revanwang.ly.search.client.ISearchSpecClient;
 import com.revanwang.ly.search.client.ISearchSpuClient;
+import com.revanwang.ly.search.dao.IGoodsRepository;
 import com.revanwang.ly.search.service.ISearchGoodsService;
-import jdk.internal.org.objectweb.asm.TypeReference;
 import org.apache.commons.lang.math.NumberUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.elasticsearch.index.query.Operator;
+import org.elasticsearch.index.query.QueryBuilders;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.elasticsearch.core.query.FetchSourceFilter;
+import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -38,6 +43,8 @@ public class SearchGoodsServiceImpl implements ISearchGoodsService {
     private ISearchCategoryClient categoryClient;
     @Autowired
     private ISearchSpecClient specClient;
+    @Autowired
+    private IGoodsRepository goodsRepository;
 
     private ObjectMapper mapper = new ObjectMapper();
 
@@ -124,6 +131,7 @@ public class SearchGoodsServiceImpl implements ISearchGoodsService {
         return new LYRevanResponse(RevanResponseCode.SUCCESS, responseData);
     }
 
+
     private String chooseSegment(String value, SpecParam p) {
         double val = NumberUtils.toDouble(value);
         String result = "其它";
@@ -151,19 +159,43 @@ public class SearchGoodsServiceImpl implements ISearchGoodsService {
         return result;
     }
 
-    @Override
-    public LYRevanResponse querySpuByPage(Integer page, Integer rows, Boolean saleable, String key) {
-        return this.spuClient.querySpuByPage(page, rows, saleable, key);
-    }
 
     @Override
-    public LYRevanResponse querySpuDetailById(Long id) {
-        return this.spuClient.querySpuDetailByPId(id);
+    public LYRevanResponse querySearchPage(SearchRequest request) {
+        String key = request.getKey();
+        // 判断是否有搜索条件，如果没有，直接返回null。不允许搜索全部商品
+        if (StringUtils.isBlank(key)) {
+            return null;
+        }
+
+        // 构建查询条件
+        NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
+
+        //1、对key进行全文检索查询
+        queryBuilder.withQuery(QueryBuilders.matchQuery("all", key).operator(Operator.AND));
+
+        //2、通过sourceFilter设置返回的结果字段，我们只需要id、skus、subTitle
+        queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{"id", "skus", "subTitle"}, null));
+
+        //3、分页
+        //准备分页
+        int page = request.getPage() - 1;
+        int size = SearchRequest.DEFAULT_SIZE;
+        queryBuilder.withPageable(PageRequest.of(page, size));
+
+        //4、查询，获取结果
+        Page<Goods> pageInfo = this.goodsRepository.search(queryBuilder.build());
+
+        long totalElements = pageInfo.getTotalElements();
+        int totalPages = pageInfo.getTotalPages();
+        List<Goods> goodsList = pageInfo.getContent();
+
+        RevanResponseData<List<Goods>> responseData = new RevanResponseData<>();
+        responseData.setData(goodsList);
+        responseData.setTotal(totalElements);
+        responseData.setTotalPage((long) totalPages);
+
+        return new LYRevanResponse(RevanResponseCode.SUCCESS, responseData);
     }
 
-    @Override
-    public LYRevanResponse querySkuBySpuId(Long id) {
-        System.out.println("SearchGoodsServiceImpl.querySkuBySpuId:==" + this.skuClient);
-        return this.skuClient.querySkuBySpuId(id);
-    }
 }
