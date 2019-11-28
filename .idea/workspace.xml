@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-manage-service-product/src/test/java/com/revanwang/ly/manage_product/web/controller/BrandControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-pojo/src/main/java/com/revanwang/ly/domain/search/SearchResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/revanwang/ly/search/client/ISearchBrandClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/ly-test-thymeleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/src/main/java/com/revanwang/ly/thymeleaf/LYTestThymeleaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/src/main/java/com/revanwang/ly/thymeleaf/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/src/main/java/com/revanwang/ly/thymeleaf/web/controller/ThymeleafController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/src/main/resources/templates/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/mapper/IBrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/mapper/IBrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/IBrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/ICategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/SpecificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/SpecificationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/SpecificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/SpecificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/test/java/com/revanwang/ly/manage_product/web/controller/CategoryControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/test/java/com/revanwang/ly/manage_product/web/controller/CategoryControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-pojo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-search/src/main/java/com/revanwang/ly/search/service/impl/SearchGoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/revanwang/ly/search/service/impl/SearchGoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-search/src/test/java/com/revanwang/ly/search/web/controller/SearchGoodsControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/src/test/java/com/revanwang/ly/search/web/controller/SearchGoodsControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/IBrandAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/IBrandAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/ICategoryAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/ICategoryAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/ISpecificationAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/ISpecificationAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +26,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -61,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -76,7 +68,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -122,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LyregistryApplication">
+  <component name="RunManager" selected="Spring Boot.LYTestThymeleaf">
     <configuration name="CategoryControllerTest.queryCategoryListNamesByCids" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ly-manage-service-product" />
       <extension name="coverage">
@@ -166,22 +158,6 @@
       <option name="PACKAGE_NAME" value="com.revanwang.ly.search.web.controller" />
       <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.search.web.controller.SearchGoodsControllerTest" />
       <option name="METHOD_NAME" value="queryCategoryListNamesByCidsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchGoodsControllerTest.querySpuDetailByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly-search" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.revanwang.ly.search.web.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.revanwang.ly.search.web.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.search.web.controller.SearchGoodsControllerTest" />
-      <option name="METHOD_NAME" value="querySpuDetailByIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -255,6 +231,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LYTestThymeleaf" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ly-test-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revanwang.ly.thymeleaf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.ly.thymeleaf.LYTestThymeleaf" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LYUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-upload" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.LYUploadApplication" />
@@ -277,7 +266,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SearchGoodsControllerTest.querySpuDetailByIdTest" />
       <item itemvalue="JUnit.ElasticSearchTest.loadData" />
       <item itemvalue="JUnit.SearchGoodsControllerTest.queryCategoryListNamesByCidsTest" />
       <item itemvalue="JUnit.CategoryControllerTest.queryCategoryListNamesByCids" />
@@ -288,14 +276,15 @@
       <item itemvalue="Spring Boot.LYUploadApplication" />
       <item itemvalue="Spring Boot.LYSearchApplication" />
       <item itemvalue="Spring Boot.ElasticSearchApplication" />
+      <item itemvalue="Spring Boot.LYTestThymeleaf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.LYTestThymeleaf" />
         <item itemvalue="JUnit.SearchGoodsControllerTest.searchGoodsTest" />
         <item itemvalue="JUnit.ElasticSearchTest.loadData" />
         <item itemvalue="JUnit.CategoryControllerTest.queryCategoryListNamesByCids" />
         <item itemvalue="JUnit.SearchGoodsControllerTest.queryCategoryListNamesByCidsTest" />
-        <item itemvalue="JUnit.SearchGoodsControllerTest.querySpuDetailByIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -307,12 +296,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4353e801" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9432144c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4353e801" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@944fe521" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9432144c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2b74a0ac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9432144c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e2b36cf3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -353,6 +347,8 @@
       <workItem from="1574763453104" duration="124000" />
       <workItem from="1574763682757" duration="9449000" />
       <workItem from="1574780444974" duration="20581000" />
+      <workItem from="1574951756778" duration="595000" />
+      <workItem from="1574952397051" duration="1708000" />
     </task>
     <servers />
   </component>

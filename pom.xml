@@ -17,6 +17,7 @@
         <module>ly-service-api</module>
         <module>ly-search</module>
         <module>ly-test-elasticsearch</module>
+        <module>ly-test-thymeleaf</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -36,6 +37,7 @@
         <mysql.connector.version>8.0.18</mysql.connector.version>
         <fastDFS.client.version>1.26.2</fastDFS.client.version>
         <springfox-swagger.version>2.7.0</springfox-swagger.version>
+        <thymeleaf.version>RELEASE</thymeleaf.version>
     </properties>
 
 
@@ -86,6 +88,13 @@
                 <groupId>com.github.tobato</groupId>
                 <artifactId>fastdfs-client</artifactId>
                 <version>${fastDFS.client.version}</version>
+            </dependency>
+
+            <!--Thymeleaf模板-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                <version>${thymeleaf.version}</version>
             </dependency>
 
         </dependencies>
