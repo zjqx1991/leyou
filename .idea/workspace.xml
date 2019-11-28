@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/ly-test-thymeleaf.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/src/main/java/com/revanwang/ly/thymeleaf/LYTestThymeleaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/src/main/java/com/revanwang/ly/thymeleaf/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/src/main/java/com/revanwang/ly/thymeleaf/web/controller/ThymeleafController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/src/main/resources/templates/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -348,7 +339,7 @@
       <workItem from="1574763682757" duration="9449000" />
       <workItem from="1574780444974" duration="20581000" />
       <workItem from="1574951756778" duration="595000" />
-      <workItem from="1574952397051" duration="1708000" />
+      <workItem from="1574952397051" duration="1813000" />
     </task>
     <servers />
   </component>

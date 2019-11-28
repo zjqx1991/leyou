@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ly-goods-page" />
         <module name="ly-manage-service-product" />
         <module name="ly-upload" />
         <module name="ly-api-gateway" />
@@ -29,6 +30,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ly-api-gateway" options="-parameters" />
       <module name="ly-common" options="-parameters" />
+      <module name="ly-goods-page" options="-parameters" />
       <module name="ly-manage-service-product" options="-parameters" />
       <module name="ly-pojo" options="-parameters" />
       <module name="ly-product-interface" options="-parameters" />

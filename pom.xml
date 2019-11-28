@@ -18,6 +18,7 @@
         <module>ly-search</module>
         <module>ly-test-elasticsearch</module>
         <module>ly-test-thymeleaf</module>
+        <module>ly-goods-page</module>
     </modules>
     <packaging>pom</packaging>
 
