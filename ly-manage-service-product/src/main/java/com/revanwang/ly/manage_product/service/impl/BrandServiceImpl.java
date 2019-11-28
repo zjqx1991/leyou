@@ -83,4 +83,19 @@ public class BrandServiceImpl implements IBrandService {
         responseData.setData(brands);
         return new LYRevanResponse(RevanResponseCode.SUCCESS, responseData);
     }
+
+    @Override
+    public LYRevanResponse queryBrandByIds(List<Long> cids) {
+        if (CollectionUtils.isEmpty(cids)) {
+            RevanThrowException.throwException(RevanResponseCode.PARAM_FAIL);
+        }
+        List<Brand> brands = this.brandMapper.selectByIdList(cids);
+        if (CollectionUtils.isEmpty(cids)) {
+            RevanThrowException.throwException(BRAND_NOT_FOUND);
+        }
+        RevanResponseData<List<Brand>> data = new RevanResponseData<>();
+        data.setData(brands);
+
+        return new LYRevanResponse(RevanResponseCode.SUCCESS, data);
+    }
 }

@@ -31,7 +31,7 @@ public interface ISpecificationAPI {
             @ApiImplicitParam(name = "gid", value = "参数规格组id", required = false, dataType = "long"),
     })
     @GetMapping("/params")
-    LYRevanResponse querySpecParamByIds(@RequestParam("cid") Long cid,
-                                        @RequestParam("gid") Long gid);
+    LYRevanResponse querySpecParamByIds(@RequestParam(value = "cid", defaultValue = "0") Long cid,
+                                        @RequestParam(value = "gid", defaultValue = "0") Long gid);
 
 }

@@ -42,8 +42,12 @@ public class SpecificationServiceImpl implements ISpecificationService {
     @Override
     public LYRevanResponse querySpecParamByIds(Long cid, Long gid) {
         SpecParam param = new SpecParam();
-        param.setCid(cid);
-        param.setGroupId(gid);
+        if (cid > 0) {
+            param.setCid(cid);
+        }
+        if (gid > 0) {
+            param.setGroupId(gid);
+        }
         List<SpecParam> specParamList = this.specParamMapper.select(param);
 
         if (CollectionUtils.isEmpty(specParamList)) {

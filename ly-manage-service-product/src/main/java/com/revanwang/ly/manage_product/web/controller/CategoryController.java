@@ -4,6 +4,7 @@ import com.revanwang.common.model.LYRevanResponse;
 import com.revanwang.ly.api.product.ICategoryAPI;
 import com.revanwang.ly.manage_product.service.ICategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -23,8 +24,8 @@ public class CategoryController implements ICategoryAPI {
     }
 
     @Override
-    public LYRevanResponse queryCategoryListNamesByCids(Long cid1, Long cid2, Long cid3) {
-        return this.categoryService.queryCategoryListNamesByCids(cid1, cid2, cid3);
+    public LYRevanResponse queryCategoryNamesByCids(@RequestParam("cids") List<Long> cids) {
+        return this.categoryService.queryCategoryNamesByCids(cids);
     }
 
 }

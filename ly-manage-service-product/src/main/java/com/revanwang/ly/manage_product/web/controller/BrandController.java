@@ -32,4 +32,9 @@ public class BrandController implements IBrandAPI {
         return this.brandService.queryBrandListByCid(cid);
     }
 
+    @Override
+    public LYRevanResponse queryBrandByIds(@RequestParam("cids") List<Long> cids) {
+        return this.brandService.queryBrandByIds(cids);
+    }
+
 }

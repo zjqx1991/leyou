@@ -50,9 +50,7 @@ public class CategoryServiceImpl implements ICategoryService {
     }
 
     @Override
-    public LYRevanResponse queryCategoryListNamesByCids(Long cid1, Long cid2, Long cid3) {
-
-        List<Long> cids = Arrays.asList(cid1, cid2, cid3);
+    public LYRevanResponse queryCategoryNamesByCids(List<Long> cids) {
 
         if (CollectionUtils.isEmpty(cids)) {
             RevanThrowException.throwException(RevanResponseCode.PARAM_FAIL);

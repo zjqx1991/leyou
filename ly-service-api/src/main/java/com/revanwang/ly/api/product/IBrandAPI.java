@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Api(value = "品牌(Brand)接口管理", description = "品牌(Brand)管理接口，提供品牌(Brand)的增、删、改、查")
-@RequestMapping("brand")
+@RequestMapping("/brand")
 public interface IBrandAPI {
 
     @ApiOperation("查询品牌")
@@ -22,7 +22,7 @@ public interface IBrandAPI {
             @ApiImplicitParam(name = "desc", value = "降序", required = false, dataType = "boolean"),
             @ApiImplicitParam(name = "key", value = "搜索关键词", required = false, dataType = "string"),
     })
-    @GetMapping("page")
+    @GetMapping("/page")
     LYRevanResponse findBrandsBy(
             @RequestParam(value = "page", defaultValue = "1") Long page,
             @RequestParam(value = "rows", defaultValue = "10") Integer rows,
@@ -45,5 +45,13 @@ public interface IBrandAPI {
     })
     @GetMapping("cid/{cid}")
     LYRevanResponse queryBrandListByCid(@PathVariable("cid") Long cid);
+
+
+    @ApiOperation("通过分类id列表查询品牌")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "cids", value = "分类列表", required = true),
+    })
+    @GetMapping("/list")
+    LYRevanResponse queryBrandByIds(@RequestParam("cids") List<Long> cids);
 
 }

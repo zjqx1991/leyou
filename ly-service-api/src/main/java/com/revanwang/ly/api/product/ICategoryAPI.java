@@ -27,13 +27,8 @@ public interface ICategoryAPI {
 
     @ApiOperation("通过分类id列表查询分类名称")
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "cid1", value = "分类id", required = true),
-            @ApiImplicitParam(name = "cid2", value = "分类id", required = true),
-            @ApiImplicitParam(name = "cid3", value = "分类id", required = true),
+            @ApiImplicitParam(name = "cids", value = "分类ids", required = true),
     })
     @GetMapping("/names")
-    LYRevanResponse queryCategoryListNamesByCids(@RequestParam("cid1") Long cid1,
-                                                 @RequestParam("cid2") Long cid2,
-                                                 @RequestParam("cid3") Long cid3
-                                                 );
+    LYRevanResponse queryCategoryNamesByCids(@RequestParam("cids") List<Long> cids);
 }

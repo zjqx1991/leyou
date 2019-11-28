@@ -18,4 +18,11 @@ public interface IBrandService {
      * @return
      */
     LYRevanResponse queryBrandListByCid(Long cid);
+
+    /**
+     * 通过分类id列表查询品牌
+     * @param cids
+     * @return
+     */
+    LYRevanResponse queryBrandByIds(List<Long> cids);
 }

@@ -10,7 +10,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Arrays;
 
-import static org.junit.Assert.*;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
@@ -21,7 +20,7 @@ public class CategoryControllerTest {
 
     @Test
     public void queryCategoryListNamesByCids() {
-        LYRevanResponse lyRevanResponse = this.categoryService.queryCategoryListNamesByCids(1L, 2L, 3L);
+        LYRevanResponse lyRevanResponse = this.categoryService.queryCategoryNamesByCids(Arrays.asList(1L, 2L, 3L));
         Object data = lyRevanResponse.getResponseData().getData();
         System.out.println(data);
     }

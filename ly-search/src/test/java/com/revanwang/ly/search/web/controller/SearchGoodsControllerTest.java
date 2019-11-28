@@ -47,7 +47,7 @@ public class SearchGoodsControllerTest {
     @Test
     public void queryCategoryListNamesByCidsTest() {
         System.out.println(this.categoryClient);
-        LYRevanResponse response = this.categoryClient.queryCategoryListNamesByCids(1L, 2L, 3L);
+        LYRevanResponse response = this.categoryClient.queryCategoryNamesByCids(Arrays.asList(1L, 2L, 3L));
         System.out.println(response);
     }
 

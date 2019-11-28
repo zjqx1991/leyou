@@ -31,7 +31,8 @@ public class SpecificationController implements ISpecificationAPI {
      * @return
      */
     @Override
-    public LYRevanResponse querySpecParamByIds(Long cid, Long gid) {
+    public LYRevanResponse querySpecParamByIds(@RequestParam(value = "cid", defaultValue = "0") Long cid,
+                                               @RequestParam(value = "gid", defaultValue = "0") Long gid) {
         return this.specificationService.querySpecParamByIds(cid, gid);
     }
 
