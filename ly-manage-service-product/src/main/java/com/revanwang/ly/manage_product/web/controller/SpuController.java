@@ -24,4 +24,9 @@ public class SpuController implements ISpuAPI {
         return this.spuService.querySpuDetailById(id);
     }
 
+    @Override
+    public LYRevanResponse querySpuById(@PathVariable("id") Long id) {
+        return this.spuService.querySpuById(id);
+    }
+
 }

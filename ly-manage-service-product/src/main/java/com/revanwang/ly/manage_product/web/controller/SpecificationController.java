@@ -20,7 +20,7 @@ public class SpecificationController implements ISpecificationAPI {
      * @param cid 商品分类
      * @return
      */
-    public LYRevanResponse querySpecGroupByCid(Long cid) {
+    public LYRevanResponse querySpecGroupByCid(@PathVariable("cid") Long cid) {
         return this.specificationService.querySpecGroupByCid(cid);
     }
 

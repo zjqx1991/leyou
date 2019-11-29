@@ -28,11 +28,25 @@ public class SpecificationServiceImpl implements ISpecificationService {
     public LYRevanResponse querySpecGroupByCid(Long cid) {
         SpecGroup group = new SpecGroup();
         group.setCid(cid);
+        //1.查询当前分类id下的规格组参数
         List<SpecGroup> specGroupList = this.specGroupMapper.select(group);
-
         if (CollectionUtils.isEmpty(specGroupList)) {
             RevanThrowException.throwException(RevanResponseCode.CATEGORY_SPEC_GROUP_NOT_FOUND);
         }
+        //2.查询当前分类id下的所有规格参数
+        SpecParam specParam = new SpecParam();
+        specParam.setCid(cid);
+        List<SpecParam> specParams = this.specParamMapper.select(specParam);
+
+        //3.把对应的规格组参数保存到相应的规格组的 params 中
+        for (SpecGroup sgp : specGroupList) {
+            for (SpecParam spm : specParams) {
+                if (sgp.getId() == spm.getGroupId()) {
+                    sgp.getParams().add(spm);
+                }
+            }
+        }
+
 
         RevanResponseData<List<SpecGroup>> data = new RevanResponseData<>();
         data.setData(specGroupList);

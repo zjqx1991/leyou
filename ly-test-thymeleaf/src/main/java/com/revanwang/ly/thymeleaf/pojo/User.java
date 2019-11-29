@@ -11,4 +11,5 @@ public class User {
     private String name;
     private int age;
     User friend;
+    private String img;
 }

@@ -92,4 +92,15 @@ public class SpuServiceImpl implements ISpuService {
         return new LYRevanResponse(RevanResponseCode.SUCCESS, data);
     }
 
+    @Override
+    public LYRevanResponse querySpuById(Long id) {
+        Spu spu = this.spuMapper.selectByPrimaryKey(id);
+        if (spu == null) {
+            RevanThrowException.throwException(RevanResponseCode.SPU_NOT_FOUND);
+        }
+        RevanResponseData<Spu> responseData = new RevanResponseData<>();
+        responseData.setData(spu);
+        return new LYRevanResponse(RevanResponseCode.SUCCESS, responseData);
+    }
+
 }

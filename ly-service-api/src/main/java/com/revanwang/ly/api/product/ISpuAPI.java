@@ -7,6 +7,7 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -36,5 +37,13 @@ public interface ISpuAPI {
     })
     @GetMapping("/detail")
     LYRevanResponse querySpuDetailByPId(@RequestParam(value = "id") Long id);
+
+
+    @ApiOperation("根据spu商品id查询spu")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "id", value = "spu商品id", required = true, dataType = "long"),
+    })
+    @GetMapping("/{id}")
+    LYRevanResponse querySpuById(@PathVariable("id") Long id);
 
 }

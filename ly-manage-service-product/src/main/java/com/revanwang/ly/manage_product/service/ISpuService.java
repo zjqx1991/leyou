@@ -19,4 +19,11 @@ public interface ISpuService {
      * @return
      */
     LYRevanResponse querySpuDetailById(Long id);
+
+    /**
+     * 根据spu商品id查询spu
+     * @param id
+     * @return
+     */
+    LYRevanResponse querySpuById(Long id);
 }
