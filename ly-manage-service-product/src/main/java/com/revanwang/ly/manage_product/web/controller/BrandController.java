@@ -28,7 +28,7 @@ public class BrandController implements IBrandAPI {
     }
 
     @Override
-    public LYRevanResponse queryBrandListByCid(Long cid) {
+    public LYRevanResponse queryBrandListByCid(@PathVariable("cid") Long cid) {
         return this.brandService.queryBrandListByCid(cid);
     }
 

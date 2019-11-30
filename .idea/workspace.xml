@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/utils/ThreadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/test/java/com/revanwang/ly/goods_page/web/controller/GoodsPageControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/src/main/java/com/revanwang/ly/thymeleaf/service/IStaticFileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-thymeleaf/src/main/java/com/revanwang/ly/thymeleaf/service/impl/StaticFileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/mapper/ISpuBoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/IGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-pojo/src/main/java/com/revanwang/ly/domain/product/SpuBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/product/IGoodsAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-goods-page/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-goods-page/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-goods-page/target/classes/templates/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/templates/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller/BrandController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,11 +86,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.revanwang.ly.goods_page.client" />
-      <recent name="com.revanwang.ly.api.goods_page" />
       <recent name="com.revanwang.ly.manage_product.mapper" />
-      <recent name="com.revanwang.ly.search.client" />
-      <recent name="com.revanwang.ly.api.search" />
+      <recent name="com.revanwang.ly.manage_product.service.impl" />
+      <recent name="com.revanwang.ly.manage_product.service" />
+      <recent name="com.revanwang.ly.manage_product.web.controller" />
+      <recent name="com.revanwang.ly.api.product" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ly-goods-page/src/main/resources/templates" />
@@ -290,8 +291,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GoodsPageControllerTest.createHtml" />
         <item itemvalue="Spring Boot.LYTestThymeleaf" />
+        <item itemvalue="JUnit.GoodsPageControllerTest.createHtml" />
         <item itemvalue="JUnit.SearchGoodsControllerTest.searchGoodsTest" />
         <item itemvalue="JUnit.ElasticSearchTest.loadData" />
         <item itemvalue="JUnit.CategoryControllerTest.queryCategoryListNamesByCids" />
@@ -307,6 +308,11 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b36530e2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b36530e2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8c82c7a3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -360,7 +366,7 @@
       <workItem from="1574951756778" duration="595000" />
       <workItem from="1574952397051" duration="2968000" />
       <workItem from="1574984181386" duration="1430000" />
-      <workItem from="1574986041455" duration="33420000" />
+      <workItem from="1574986041455" duration="41992000" />
     </task>
     <servers />
   </component>
