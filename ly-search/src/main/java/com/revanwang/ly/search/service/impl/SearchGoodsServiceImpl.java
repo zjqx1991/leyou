@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.revanwang.common.model.LYRevanResponse;
 import com.revanwang.common.model.RevanResponseCode;
 import com.revanwang.common.model.RevanResponseData;
+import com.revanwang.common.utils.JsonUtils;
 import com.revanwang.ly.domain.product.*;
 import com.revanwang.ly.domain.search.Goods;
 import com.revanwang.ly.domain.search.SearchRequest;
@@ -56,6 +57,17 @@ public class SearchGoodsServiceImpl implements ISearchGoodsService {
     private ElasticsearchTemplate elasticsearchTemplate;
 
     private ObjectMapper mapper = new ObjectMapper();
+
+    @Override
+    public void createIndex(Long id) {
+        Spu spu = JsonUtils.parse(JsonUtils.serialize(this.spuClient.querySpuById(id).getResponseData().getData()),
+                Spu.class);
+        //构建商品
+        Goods goods = JsonUtils.parse(JsonUtils.serialize(buildGoods(spu).getResponseData().getData()),
+                Goods.class);
+        //保存数据到索引库中
+        this.goodsRepository.save(goods);
+    }
 
     @Override
     public LYRevanResponse buildGoods(Spu spu) {

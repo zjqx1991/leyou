@@ -9,6 +9,9 @@ import com.revanwang.ly.manage_product.mapper.ISpuBoMapper;
 import com.revanwang.ly.manage_product.mapper.ISpuDetailMapper;
 import com.revanwang.ly.manage_product.mapper.ISpuMapper;
 import com.revanwang.ly.manage_product.service.IGoodsService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -26,6 +29,10 @@ public class GoodsServiceImpl implements IGoodsService {
     private ISpuDetailMapper spuDetailMapper;
     @Autowired
     private ISkuMapper skuMapper;
+    @Autowired
+    private AmqpTemplate amqpTemplate;
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(GoodsServiceImpl.class);
 
     @Override
     @Transactional
@@ -42,6 +49,9 @@ public class GoodsServiceImpl implements IGoodsService {
         this.spuDetailMapper.insert(spuBo.getSpuDetail());
 
         saveSkuAndStock(spuBo.getSkus(), spuBo.getId());
+
+        //发送消息
+        this.sendMessage(spuBo.getId(), "insert");
 
         return new LYRevanResponse(RevanResponseCode.SUCCESS);
     }
@@ -65,4 +75,21 @@ public class GoodsServiceImpl implements IGoodsService {
 //            this.stockMapper.insert(stock);
         }
     }
+
+    /**
+     * 发送消息到mq，生产者
+     * @param id
+     * @param type
+     */
+    private void sendMessage(Long id, String type) {
+        try {
+            this.amqpTemplate.convertAndSend("item." + type, id);
+        }catch (Exception e){
+            System.out.println(type);
+            System.out.println(id);
+            System.out.println(e.getMessage());
+            LOGGER.error("{}商品消息发送异常，商品id：{}",type,id,e);
+        }
+    }
+
 }

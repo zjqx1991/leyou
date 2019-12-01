@@ -7,6 +7,13 @@ import com.revanwang.ly.domain.search.SearchRequest;
 
 public interface ISearchGoodsService {
 
+
+    /**
+     * 根据goods的id创建相应的索引
+     * @param id
+     */
+    void createIndex(Long id);
+
     /**
      * 通过spu来构建Goods的搜索库
      * @param spu

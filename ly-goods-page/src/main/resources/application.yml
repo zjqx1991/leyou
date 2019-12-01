@@ -6,6 +6,11 @@ spring:
     name: ly-goods-page
   thymeleaf:
     cache: false
+  rabbitmq:
+    virtual-host: /revan
+    host: 192.168.0.110
+    username: revan
+    password: revan
 eureka:
   client:
     service-url:
