@@ -12,6 +12,7 @@
         <module name="ly-upload" />
         <module name="ly-api-gateway" />
         <module name="ly-test-elasticsearch" />
+        <module name="ly-service-sms" />
         <module name="ly-pojo" />
         <module name="ly-test-thymeleaf" />
         <module name="ly-service-api" />
@@ -39,6 +40,7 @@
       <module name="ly-registry" options="-parameters" />
       <module name="ly-search" options="-parameters" />
       <module name="ly-service-api" options="-parameters" />
+      <module name="ly-service-sms" options="-parameters" />
       <module name="ly-test-elasticsearch" options="-parameters" />
       <module name="ly-test-rabbitmq" options="-parameters" />
       <module name="ly-test-thymeleaf" options="-parameters" />

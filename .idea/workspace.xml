@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/ly-test-rabbitmq.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/direct/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/direct/Recv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/direct/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/fanout/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/fanout/Recv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/fanout/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/simple/Recv1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/simple/Recv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/simple/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/util/RevanRabbitConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-sms/ly-service-sms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-sms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-sms/src/main/java/com/revanwang/ly/sms/LYSmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-sms/src/main/java/com/revanwang/ly/sms/config/LYSmsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-sms/src/main/java/com/revanwang/ly/sms/utils/RevanSmsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-sms/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -73,7 +66,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/direct" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-service-sms/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -89,18 +82,18 @@
       <recent name="com.revanwang.ly.manage_product.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.revanwang.ly.sms.utils" />
       <recent name="com.revanwang.rabbitmq.direct" />
       <recent name="com.revanwang.rabbitmq.simple" />
       <recent name="com.revanwang.rabbitmq.util" />
       <recent name="com.revanwang.ly.goods_page.service.impl" />
-      <recent name="com.revanwang.ly.goods_page.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ly-service-sms/src/main/resources" />
       <recent name="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/direct" />
       <recent name="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/fanout" />
       <recent name="$PROJECT_DIR$/ly-test-rabbitmq/src/main/resources" />
       <recent name="$PROJECT_DIR$/ly-goods-page/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/ly-search/src/main/resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -251,6 +244,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LYTestThymeleaf" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-test-thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.ly.thymeleaf.LYTestThymeleaf" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LYUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-upload" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.LYUploadApplication" />
@@ -285,6 +285,7 @@
       <item itemvalue="Application.Recv (1)" />
       <item itemvalue="Application.Recv2" />
       <item itemvalue="Application.Send" />
+      <item itemvalue="Spring Boot.LYTestThymeleaf" />
     </list>
     <recent_temporary>
       <list>
@@ -344,7 +345,7 @@
       <workItem from="1574952397051" duration="2968000" />
       <workItem from="1574984181386" duration="1430000" />
       <workItem from="1574986041455" duration="49084000" />
-      <workItem from="1575185836496" duration="7881000" />
+      <workItem from="1575185836496" duration="12062000" />
     </task>
     <servers />
   </component>

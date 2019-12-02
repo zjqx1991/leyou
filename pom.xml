@@ -20,6 +20,7 @@
         <module>ly-test-thymeleaf</module>
         <module>ly-goods-page</module>
         <module>ly-test-rabbitmq</module>
+        <module>ly-service-sms</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -40,6 +41,7 @@
         <fastDFS.client.version>1.26.2</fastDFS.client.version>
         <springfox-swagger.version>2.7.0</springfox-swagger.version>
         <thymeleaf.version>RELEASE</thymeleaf.version>
+        <aliyun.sdk.version>4.1.0</aliyun.sdk.version>
     </properties>
 
 
@@ -99,6 +101,11 @@
                 <version>${thymeleaf.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-core</artifactId>
+                <version>${aliyun.sdk.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
