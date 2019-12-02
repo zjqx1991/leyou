@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/java/com/revanwang/ly/goods_page/listener/GoodsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/java/com/revanwang/ly/goods_page/service/IGoodsHtmlService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/java/com/revanwang/ly/goods_page/service/impl/IGoodsHtmlServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/revanwang/ly/search/listener/GoodsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/ly-test-rabbitmq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/direct/Recv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/direct/Recv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/direct/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/fanout/Recv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/fanout/Recv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/fanout/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/simple/Recv1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/simple/Recv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/simple/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/util/RevanRabbitConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-test-rabbitmq/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-goods-page/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-goods-page/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-goods-page/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-goods-page/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-goods-page/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-manage-service-product/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-manage-service-product/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-search/src/main/java/com/revanwang/ly/search/service/ISearchGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/revanwang/ly/search/service/ISearchGoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-search/src/main/java/com/revanwang/ly/search/service/impl/SearchGoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/revanwang/ly/search/service/impl/SearchGoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-goods-page/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/direct" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -89,25 +88,25 @@
       <recent name="com.revanwang.ly.search.web.controller" />
       <recent name="com.revanwang.ly.manage_product.service" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.revanwang.ly.search.web.controller" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.revanwang.rabbitmq.direct" />
+      <recent name="com.revanwang.rabbitmq.simple" />
+      <recent name="com.revanwang.rabbitmq.util" />
+      <recent name="com.revanwang.ly.goods_page.service.impl" />
+      <recent name="com.revanwang.ly.goods_page.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/direct" />
+      <recent name="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/fanout" />
+      <recent name="$PROJECT_DIR$/ly-test-rabbitmq/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ly-goods-page/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/ly-search/src/main/resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.revanwang.ly.goods_page.service.impl" />
-      <recent name="com.revanwang.ly.goods_page.service" />
-      <recent name="com.revanwang.ly.manage_product.mapper" />
-      <recent name="com.revanwang.ly.manage_product.service.impl" />
-      <recent name="com.revanwang.ly.manage_product.service" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ly-goods-page/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/ly-search/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ly-common/src/main/java/com/revanwang/common/exception" />
-      <recent name="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/web/controller" />
-      <recent name="$PROJECT_DIR$/ly-manage-service-product/src/main/java/com/revanwang/ly/manage_product/service/impl" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.revanwang.ly.search.web.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -127,67 +126,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GoodsPageControllerTest.createHtml">
-    <configuration name="CategoryControllerTest.queryCategoryListNamesByCids" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly-manage-service-product" />
+  <component name="RunManager" selected="Application.Send">
+    <configuration name="Recv (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.rabbitmq.direct.Recv" />
+      <module name="ly-test-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.revanwang.ly.manage_product.web.controller.*" />
+          <option name="PATTERN" value="com.revanwang.rabbitmq.direct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.revanwang.ly.manage_product.web.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.manage_product.web.controller.CategoryControllerTest" />
-      <option name="METHOD_NAME" value="queryCategoryListNamesByCids" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElasticSearchTest.loadData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly-search" />
+    <configuration name="Recv2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.rabbitmq.fanout.Recv2" />
+      <module name="ly-test-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.revanwang.ly.search.index.*" />
+          <option name="PATTERN" value="com.revanwang.rabbitmq.fanout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.revanwang.ly.search.index" />
-      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.search.index.ElasticSearchTest" />
-      <option name="METHOD_NAME" value="loadData" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoodsPageControllerTest.createHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly-goods-page" />
+    <configuration name="Recv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.rabbitmq.direct.Recv2" />
+      <module name="ly-test-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.revanwang.ly.goods_page.web.controller.*" />
+          <option name="PATTERN" value="com.revanwang.rabbitmq.direct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.revanwang.ly.goods_page.web.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.goods_page.web.controller.GoodsPageControllerTest" />
-      <option name="METHOD_NAME" value="createHtml" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchGoodsControllerTest.searchGoodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly-search" />
+    <configuration name="Send (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.rabbitmq.fanout.Send" />
+      <module name="ly-test-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.revanwang.ly.search.web.controller.*" />
+          <option name="PATTERN" value="com.revanwang.rabbitmq.fanout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.revanwang.ly.search.web.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.revanwang.ly.search.web.controller.SearchGoodsControllerTest" />
-      <option name="METHOD_NAME" value="searchGoodsTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.rabbitmq.direct.Send" />
+      <module name="ly-test-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revanwang.rabbitmq.direct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -251,19 +251,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LYTestThymeleaf" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ly-test-thymeleaf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.revanwang.ly.thymeleaf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.ly.thymeleaf.LYTestThymeleaf" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LYUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-upload" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.LYUploadApplication" />
@@ -286,10 +273,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ElasticSearchTest.loadData" />
-      <item itemvalue="JUnit.CategoryControllerTest.queryCategoryListNamesByCids" />
-      <item itemvalue="JUnit.SearchGoodsControllerTest.searchGoodsTest" />
-      <item itemvalue="JUnit.GoodsPageControllerTest.createHtml" />
       <item itemvalue="Spring Boot.LygatewayApplication" />
       <item itemvalue="Spring Boot.LYProductApplication" />
       <item itemvalue="Spring Boot.LyregistryApplication" />
@@ -297,15 +280,19 @@
       <item itemvalue="Spring Boot.LYSearchApplication" />
       <item itemvalue="Spring Boot.ElasticSearchApplication" />
       <item itemvalue="Spring Boot.LYGoodsPageApplication" />
-      <item itemvalue="Spring Boot.LYTestThymeleaf" />
+      <item itemvalue="Application.Send (1)" />
+      <item itemvalue="Application.Recv2 (1)" />
+      <item itemvalue="Application.Recv (1)" />
+      <item itemvalue="Application.Recv2" />
+      <item itemvalue="Application.Send" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.LYTestThymeleaf" />
-        <item itemvalue="JUnit.GoodsPageControllerTest.createHtml" />
-        <item itemvalue="JUnit.SearchGoodsControllerTest.searchGoodsTest" />
-        <item itemvalue="JUnit.ElasticSearchTest.loadData" />
-        <item itemvalue="JUnit.CategoryControllerTest.queryCategoryListNamesByCids" />
+        <item itemvalue="Application.Send" />
+        <item itemvalue="Application.Recv (1)" />
+        <item itemvalue="Application.Recv2" />
+        <item itemvalue="Application.Send (1)" />
+        <item itemvalue="Application.Recv2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +344,7 @@
       <workItem from="1574952397051" duration="2968000" />
       <workItem from="1574984181386" duration="1430000" />
       <workItem from="1574986041455" duration="49084000" />
-      <workItem from="1575185836496" duration="590000" />
+      <workItem from="1575185836496" duration="7881000" />
     </task>
     <servers />
   </component>

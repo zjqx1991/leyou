@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/ly-search" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-test-elasticsearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ly-test-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-test-thymeleaf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-upload" charset="UTF-8" />
   </component>

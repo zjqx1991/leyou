@@ -19,6 +19,7 @@
         <module>ly-test-elasticsearch</module>
         <module>ly-test-thymeleaf</module>
         <module>ly-goods-page</module>
+        <module>ly-test-rabbitmq</module>
     </modules>
     <packaging>pom</packaging>
 

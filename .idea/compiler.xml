@@ -16,6 +16,7 @@
         <module name="ly-test-thymeleaf" />
         <module name="ly-service-api" />
         <module name="ly-search" />
+        <module name="ly-test-rabbitmq" />
         <module name="ly-common" />
         <module name="ly-registry" />
       </profile>
@@ -39,6 +40,7 @@
       <module name="ly-search" options="-parameters" />
       <module name="ly-service-api" options="-parameters" />
       <module name="ly-test-elasticsearch" options="-parameters" />
+      <module name="ly-test-rabbitmq" options="-parameters" />
       <module name="ly-test-thymeleaf" options="-parameters" />
       <module name="ly-upload" options="-parameters" />
     </option>
