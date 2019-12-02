@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011bd4c0-f73d-4a30-9fe2-95464a746ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-service-sms/ly-service-sms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-service-sms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-service-sms/src/main/java/com/revanwang/ly/sms/LYSmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-service-sms/src/main/java/com/revanwang/ly/sms/config/LYSmsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-service-sms/src/main/java/com/revanwang/ly/sms/utils/RevanSmsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-service-sms/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-pojo/src/main/java/com/revanwang/ly/domain/usercenter/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-api/src/main/java/com/revanwang/ly/api/usercenter/IUserAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-usercenter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-usercenter/src/main/java/com/revanwang/ly/usercenter/LYUserCenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-usercenter/src/main/java/com/revanwang/ly/usercenter/mapper/IUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-usercenter/src/main/java/com/revanwang/ly/usercenter/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-usercenter/src/main/java/com/revanwang/ly/usercenter/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-usercenter/src/main/java/com/revanwang/ly/usercenter/web/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-service-usercenter/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/META-INF/ly-common.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-pojo/target/classes/META-INF/ly-pojo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-service-api/target/classes/META-INF/ly-service-api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-service-sms/ly-service-sms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-test-rabbitmq/ly-test-rabbitmq.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +34,8 @@
       <list>
         <option value="Enum" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,7 +76,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ly-product/ly-product-service/src/main/java/com/revanwang" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-service-sms/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-service-usercenter/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -81,25 +91,25 @@
       <recent name="com.revanwang.ly.search.web.controller" />
       <recent name="com.revanwang.ly.manage_product.service" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.revanwang.ly.sms.utils" />
-      <recent name="com.revanwang.rabbitmq.direct" />
-      <recent name="com.revanwang.rabbitmq.simple" />
-      <recent name="com.revanwang.rabbitmq.util" />
-      <recent name="com.revanwang.ly.goods_page.service.impl" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ly-service-sms/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/direct" />
-      <recent name="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/fanout" />
-      <recent name="$PROJECT_DIR$/ly-test-rabbitmq/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ly-goods-page/src/main/resources/templates" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.revanwang.ly.search.web.controller" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.revanwang.ly.search.web.controller" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.revanwang.ly.api.usercenter" />
+      <recent name="com.revanwang.ly.sms.utils" />
+      <recent name="com.revanwang.rabbitmq.direct" />
+      <recent name="com.revanwang.rabbitmq.simple" />
+      <recent name="com.revanwang.rabbitmq.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ly-service-usercenter/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ly-service-sms/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/direct" />
+      <recent name="$PROJECT_DIR$/ly-test-rabbitmq/src/main/java/com/revanwang/rabbitmq/fanout" />
+      <recent name="$PROJECT_DIR$/ly-test-rabbitmq/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -119,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Send">
+  <component name="RunManager" selected="Spring Boot.LYUserCenterApplication">
     <configuration name="Recv (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.revanwang.rabbitmq.direct.Recv" />
       <module name="ly-test-rabbitmq" />
@@ -244,6 +254,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LYSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-service-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.ly.sms.LYSmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LYTestThymeleaf" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-test-thymeleaf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.ly.thymeleaf.LYTestThymeleaf" />
@@ -254,6 +271,13 @@
     <configuration name="LYUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-upload" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.LYUploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LYUserCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-service-usercenter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.ly.usercenter.LYUserCenterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,6 +297,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Send (1)" />
+      <item itemvalue="Application.Recv2 (1)" />
+      <item itemvalue="Application.Recv (1)" />
+      <item itemvalue="Application.Recv2" />
+      <item itemvalue="Application.Send" />
       <item itemvalue="Spring Boot.LygatewayApplication" />
       <item itemvalue="Spring Boot.LYProductApplication" />
       <item itemvalue="Spring Boot.LyregistryApplication" />
@@ -280,12 +309,9 @@
       <item itemvalue="Spring Boot.LYSearchApplication" />
       <item itemvalue="Spring Boot.ElasticSearchApplication" />
       <item itemvalue="Spring Boot.LYGoodsPageApplication" />
-      <item itemvalue="Application.Send (1)" />
-      <item itemvalue="Application.Recv2 (1)" />
-      <item itemvalue="Application.Recv (1)" />
-      <item itemvalue="Application.Recv2" />
-      <item itemvalue="Application.Send" />
       <item itemvalue="Spring Boot.LYTestThymeleaf" />
+      <item itemvalue="Spring Boot.LYSmsApplication" />
+      <item itemvalue="Spring Boot.LYUserCenterApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -302,7 +328,22 @@
       <serviceView>
         <option name="contentProportion" value="0.25835475" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7d6e40c0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7d6e40c0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b42f1651" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7d6e40c0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b2804012" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -345,7 +386,8 @@
       <workItem from="1574952397051" duration="2968000" />
       <workItem from="1574984181386" duration="1430000" />
       <workItem from="1574986041455" duration="49084000" />
-      <workItem from="1575185836496" duration="12062000" />
+      <workItem from="1575185836496" duration="13769000" />
+      <workItem from="1575287050598" duration="4534000" />
     </task>
     <servers />
   </component>

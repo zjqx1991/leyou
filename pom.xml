@@ -21,6 +21,7 @@
         <module>ly-goods-page</module>
         <module>ly-test-rabbitmq</module>
         <module>ly-service-sms</module>
+        <module>ly-service-usercenter</module>
     </modules>
     <packaging>pom</packaging>
 
