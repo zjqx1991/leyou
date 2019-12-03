@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * 统一拦击异常类
  */
 @ControllerAdvice
-public class RevanExceptionCatch {
+public class RevanExceptionHandler {
 
     /**
      *  使用Exceptions存放异常类和错误代码的映射，
@@ -33,9 +33,9 @@ public class RevanExceptionCatch {
     /**
      * 处理自定义异常类
      */
-    @ExceptionHandler(RevanException.class)
     @ResponseBody
-    public LYRevanResponse exceptionCatch(RevanException e) {
+    @ExceptionHandler(value = RevanException.class)
+    public LYRevanResponse exceptionHandler(RevanException e) {
 
         IBaseResponseCode responseCode = e.getResponseCode();
         return new LYRevanResponse(responseCode);

@@ -11,6 +11,9 @@ public enum RevanResponseCode implements IBaseResponseCode {
     SERVER_ERROR(false,99999,"抱歉，系统繁忙，请稍后重试！"),
     INVALIDPARAM(false,99999,"抱歉，系统繁忙，请稍后重试！"),
 
+    //user
+    USER_CODE_ERROR(false,1,"验证码错误 或 验证码已过期"),
+
     //Brand
     BRAND_NOT_FOUND(false,2, "品牌没有查到"),
 
